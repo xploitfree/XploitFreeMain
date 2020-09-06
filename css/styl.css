@@ -355,14 +355,6 @@ p {
     color:black;
 }
 
-.infosdata {
-    height:65%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1.5rem;
-    letter-spacing: 0.05em;
-}
 
 .brandname{
     margin-left: 0.3em;
@@ -370,38 +362,6 @@ p {
     letter-spacing: 0.1em;
 }
 
-.infosimg {
-   height:60%;
-}
-
-.spartinfo {
-    height:35%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1.5rem;
-    letter-spacing: 0.05em;
-    padding:1%;
-    padding-top:0;
-    padding-bottom:0;
-    color: #000000;
-
-}
-
-.vulhead {
-    height:20%;
-    background-color: white;
-} 
-
-.vulhead div p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 75px;
-    text-align: center;
-    color: #000000;
-}
 
 .vulnerability {
     height:30%;
@@ -416,32 +376,6 @@ p {
     color: #000000;
 }
 
-.compgr {
-    height:20%;
-    background-color: white;
-}
-
-.companies {
-    height:100%;
-    background-color: white;
-    padding-bottom:3%;
-}
-
-
-.compr {
-    height:29%;
-    margin-bottom:3%;
-}
-
-.compc {
-    height:100%;
-    padding:0;
-}
-
-.compimg {
-    height:100%;
-    width:100%; 
-}
 
 .pagehead{
     margin-left: 1em;

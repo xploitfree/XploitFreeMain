@@ -1,4 +1,4 @@
-function createObserver(thresholdValue = 1.0, classname, callback=handleObserver){
+function createObserver(thresholdValue = 1 , classname, callback=handleObserver){
 
     let observer;
 

@@ -31,13 +31,13 @@
         <p class="fordata"><span style="padding-right: 2%;"><?php mailsvg(40, 40, "black") ?></span>xploitfreesecurity@gmail.com</p>
     </div>
 </div>
-
+<form action="./back/contactUsApi.php" method="POST">
 <div class="row cform">
     <div class="col-6 cformcol">
         <p class="dropp">Or drop a message below</p>
-        <input class="cforminp" type="text"placeholder="Your Name"/>
-        <input class="cforminp" type="text"placeholder="Email"/>
-        <input class="cforminp" type="text"placeholder="Phone Number"/>
+        <input name="name" class="cforminp" type="text"placeholder="Your Name"/>
+        <input name="email" class="cforminp" type="text"placeholder="Email"/>
+        <input name="phone"class="cforminp" type="text"placeholder="Phone Number"/>
     </div>
     <div class="col-6 cformcolimg">
 
@@ -45,22 +45,23 @@
 </div>
 <div class="row cformr2">
     <div class="col-12" style="height:100%">
-    <input class="cforminp1" type="text"placeholder="Subject"/>
+    <input name="subject" class="cforminp1" type="text"placeholder="Subject"/>
     </div>
 </div>
 
 <div class="biginp">
     <div class="row biginpr">
         <div class="col-12 biginpc">
-        <textarea class="txtara" placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="message" class="txtara" placeholder="message" name="" id="" cols="30" rows="10"></textarea>
         </div>
     </div>
     <div class="row biginprb justify-content-end">
         <div class="c2ccolb col-2 d-flex flex-column justify-content-start align-items-center">
-            <button class="c2csub">Submit</button>
+            <button name="submit" class="c2csub">Submit</button>
         </div>
     </div>
 </div>
+</form>
 
 <?php
     include 'shared/footer.php';

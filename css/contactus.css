@@ -1,0 +1,139 @@
+.c2ccont {
+    background-color:white;
+    height:min(117.1875vw,700px);
+}
+.c2cdetail {
+    height:30%;
+    margin-left:10%;
+    margin-right:5%;
+    padding-top:2%;
+}
+
+.forbusi {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    margin-bottom:2%;
+
+}
+
+.fordata {
+    width:100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: min(2vw,32px);
+    line-height: 33px;
+    color: #000000;
+    margin:.5%;
+}
+
+
+.dropp {
+    height:20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.cform {
+    height:57%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+}
+
+.cformcol {
+
+    height:100%;
+
+}
+
+.cformcolimg {
+    height:100%;
+    background-image: url("../images/contact.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cforminp {
+    box-shadow: 3px 3px 3px  rgba(0,0,0,.5);
+    width:95%;
+    padding:3%;
+    height:15%;
+    border:2px solid #0005;
+    border-radius: 5px;
+    margin-top:5%;
+    margin-bottom:3%;
+}
+
+.cformr2 {
+    height:9%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+}
+
+.cforminp1 {
+    height:100%;
+    font-size: 25px;
+    border:2px solid #0005;
+    box-shadow: 3px 3px 3px  rgba(0,0,0,.5);
+    width:100%;
+    border-radius: 5px;
+    padding:2%;
+}
+
+.biginp {
+    height:min(117.1875vw,400px);
+    background-color:white;
+    padding-top:3%;
+}
+
+.biginpr {
+    margin-left:10%;
+    margin-right:10%;
+    height:80%;
+}
+
+.biginprb {
+    margin-left:10%;
+    margin-right:10%;
+    height:20%;
+}
+
+.biginpc {
+    height:100%;
+}
+
+.txtara {
+    height:90%;
+    width:100%;
+    border:2px solid #0005;
+    box-shadow: 3px 3px 3px  rgba(0,0,0,.5); 
+    border-radius: 5px;
+    padding:2%;
+    font-size: 25px;
+}
+
+.c2ccolb {
+    height:100%;
+}
+.c2csub {
+    height:65%;
+    width:100%;
+    padding:2%;
+    border: 5px solid #2761F7;
+    box-sizing: border-box;
+    background-color:white;
+    font-weight: 900;
+    font-size:22px;
+    border-radius: 5px;
+}

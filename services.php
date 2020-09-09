@@ -93,7 +93,7 @@
                 <div class="sec-row">
                     <a href="websecurity" class="card-link">
                         <div class="card left">
-                            <img src="./images/web-security.jpg"></img>
+                            <img src="./images/web-security.jpg"/>
                             <div class="card-name"><span class="card-btn">Web Security</span></div>
                             <div class="card-overlay">
                                 <ul class="card-list">
@@ -120,7 +120,7 @@
                     </a>
                     <a href="socialengg" class="card-link">
                         <div class="card right">
-                            <img src="./images/social-engg.jpg"></img>
+                            <img src="./images/social-engg.jpg"/>
                             <div class="card-name"><span class="card-btn">Social Engineering</span></div>
                             <div class="card-overlay">
                                 <ul class="card-list">
@@ -158,7 +158,7 @@
 <script>
     createObserver(1, "section-head");
     createObserver(1, "section-para");
-    createObserver(0.1, "card");
+    createObserver(.1, "card");
 </script>
 
 </html>
